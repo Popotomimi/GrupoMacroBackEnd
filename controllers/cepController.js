@@ -18,7 +18,7 @@ const getCep = async (req, res) => {
           .json({ message: "CEP não encontrado na API ViaCEP" });
       }
 
-      cepData = new Cep(viaCepResponse.data);
+      cepData = new Cep({ ...viaCepResponse.data, cep: cep.replace("-", "") });
       await cepData.save();
     }
 
