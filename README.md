@@ -20,9 +20,9 @@ Antes de rodar a aplicação, certifique-se de ter instalado:
 
 3️⃣ Configure as variáveis de ambiente: Crie um arquivo .env na raiz do projeto e adicione suas credenciais:
 
-DB_USER=seu_usuario
-DB_PASSWORD=sua_senha
-PORT=8000
+- DB_USER=seu_usuario
+- DB_PASSWORD=sua_senha
+- PORT=8000
 
 (Enviei os acessos pelo e-mail por questão de segurança).
 
